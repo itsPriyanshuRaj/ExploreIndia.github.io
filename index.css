@@ -1,0 +1,188 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* navbar design starts here */
+.navbar {
+    background-color: #fff;
+    padding-bottom: 10px;
+    box-shadow: 0 6px 4px 0 #000;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar li a:hover {
+    color: dodgerblue;
+}
+
+/* navbar design ends here. */
+
+/*body  sections desgins starts here */
+.section1 {
+    height: 815px;
+    background-image: url(https://images.unsplash.com/photo-1573132223210-d65883b944aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1494&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    opacity: 99%;
+}
+
+.section2 {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    text-align: center;
+    height: 750px;
+    width: 100%;
+    display: inline-block;
+}
+
+/* designing the boxes in the section2 */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.map,
+.states,
+.uniont {
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.flex img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.section3 {
+   background-image: url(https://images.unsplash.com/photo-1602047966609-a61397f1b877?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 715px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.section3 h1{
+    font-size: 60px;
+}
+.section4 {
+    background-image: url(https://images.unsplash.com/photo-1573815583438-a837d6d9f9be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1750&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    display: inline-block;
+}
+.txt1 {
+    position: absolute;
+    font-size: 80px;
+    color: #000;
+    top: 20vh;
+    left: 18vh;
+    text-shadow:
+        0 0 #000,
+        0 1.2em #1095c1;
+    overflow: hidden;
+    transition: .3s;
+}
+.pg1 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: 40vh;
+    left: 18vh;
+}
+.txt1:hover {
+    background-color: #fff;
+    text-shadow:
+        0 -1.2em #000,
+        0 0 #FF5722;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 400px;
+    height: 300px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+div h2 a{
+    text-decoration: none;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 10px;
+    padding: 3px 3px;
+}
+div h2 a:hover{
+    color: white;
+}
+
+/* body section desing ends here. */
+/* footer starts here */
+footer { 
+    margin-bottom: 0%;
+}
+.ftxt {
+    position: absolute;
+    left: 24rem;
+    font-size: 50px;
+    color: #fff;
+}
+
+.social {
+    position: absolute;
+    top: 24rem;
+    left: 15rem;
+    font-size: 50px;
+    list-style: none;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+}
+.twitter,.github,.linkedin{
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin: 4px;
+}
+
+.twitter {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/124/124021.png);
+}
+
+.github {
+    background-image: url(https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png);
+}
+
+.linkedin {
+    background-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+}
